@@ -24,3 +24,10 @@ zig build -Drelease-safe
 ## License
 
 As always, this project is licensed under the [GPLv3](./LICENSE) license.
+
+
+# Development Notice
+
+This project is currently waiting on
+[zig-tree-sitter](https://github.com/vhyrro/zig-tree-sitter) to be finished.
+The project isn't dead! :p
