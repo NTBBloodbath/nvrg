@@ -1,5 +1,6 @@
 # Zig artifacts and cache
-zig-*
+zig-out
+zig-cache
 
 # Database file used to test the most popular Neovim plugins
 database.json
