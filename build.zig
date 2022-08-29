@@ -14,6 +14,7 @@ pub fn build(b: *std.build.Builder) void {
     const exe = b.addExecutable("nvrg", "src/main.zig");
     exe.setTarget(target);
     exe.setBuildMode(mode);
+    exe.addPackagePath("clap", "lib/zig-clap/clap.zig");
     exe.addPackagePath("zelda", "lib/zelda/src/main.zig");
     exe.install();
 

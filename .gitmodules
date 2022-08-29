@@ -1,3 +1,6 @@
 [submodule "lib/zelda"]
 	path = lib/zelda
 	url = git@github.com:haze/zelda.git
+[submodule "lib/zig-clap"]
+	path = lib/zig-clap
+	url = git@github.com:Hejsil/zig-clap.git
